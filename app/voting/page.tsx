@@ -129,7 +129,7 @@ export default function VotingCenterPage() {
           </div>
           <div className="space-y-1">
             <span className="font-bold text-foreground">How Voting Works: </span>
-            Voting opens immediately after a match concludes and remains active for 2 hours. Your oracle vote helps resolve the poll for all participants. If the community reaches exactly &gt;85% consensus, the poll resolves automatically. Otherwise, admin or multi-sig review is required.
+            Voting opens immediately after a match concludes and remains active for 2 hours. Your oracle vote helps resolve the poll for all participants. Polls where one side reaches &gt;85% of votes are flagged for expedited admin review. Otherwise, standard admin or multi-sig review applies.
           </div>
         </div>
 
